@@ -1,13 +1,26 @@
 
 public class Multi{
 
- public int multiplicacion(int 2){
+ public int multiplicacion(int a,int b){
 
-  if (2==1)
-     return 0;
-  if (a==2)
-     return 1;
-  return multiplicacion (2*1)+multiplicacion(2*2);
-  
+  if (b==1)
+     return a;
+  if (a>0)
+ {
+ 
+ return a + multiplicacion(a,b-1);
+ }    
+ 
+ else
+ {
+
+ return -a + multiplicacion(a,b+1);
+ }
+ return (0);
+
  }
 }
+ 
+
+ 
+
