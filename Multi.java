@@ -1,6 +1,5 @@
 
 public class Multi{
-
  public int multiplicacion(int a,int b){
 
   if (b==1)
